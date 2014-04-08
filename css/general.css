@@ -25,3 +25,94 @@ img {
 	width: 100%;
     display: block;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.masthead {
+    background-image:url(../images/japanese-paper.jpg);
+    background-repeat:no-repeat;
+    background-color:black;
+    background-position:center;
+    clear:both;
+    overflow:hidden;
+    margin: 0 0 1rem;
+    border-bottom: solid .35rem pink;
+}
+
+.logo {
+    height:3rem;
+    width:auto;
+    float:left;
+    margin: 1.5rem 5%;
+}
+
+.billboard {
+    overflow: hidden;
+    background-color: black;
+    background-image: url(../images/spring-fashion-girl.jpg); /* you need to replace this images (resure image) */
+    background-repeat: no-repeat;
+    background-size: 25rem;
+    background-position: center top;
+}
+
+h1 {
+    margin: 6rem 3%;
+    font-weight: normal;
+    font-size: 2rem;
+    text-align:center;
+    text-transform: uppercase;
+    background-color: rgba(235, 136, 136, .85);
+    padding: .25rem 0 0;   
+}
+
+article {
+    margin: 0;
+    padding: 1.5rem 5%;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #ff9999;
+}
+
+.thumbnail {
+    clear: both;
+    font-size: 3rem;
+    display: inline;   
+}
+
+.sale ul {
+    margin: 0;
+    padding: 0;
+    text-align: center; 
+}
+
+.sale li {
+    background-image: url(../images/square.svg);
+    background-repeat: no-repeat;
+    background-size: 7rem;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    overflow: hidden; 
+}
+
+p {
+    line-height: 1.5rem;
+    margin: 0 0 1.5rem;
+}
+
+footer {
+    margin: 0;
+    padding: 1.5rem 5% 6rem;
+    background-image:url(../images/japanese-paper.jpg);
+    background-repeat: no-repeat;
+    background-size:25rem;
+}
+
+        
+    
