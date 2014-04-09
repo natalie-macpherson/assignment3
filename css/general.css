@@ -114,5 +114,20 @@ footer {
     background-size:25rem;
 }
 
-        
+.follow {
+    clear: both;
+}
+
+.follow ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.nav li {
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
     
