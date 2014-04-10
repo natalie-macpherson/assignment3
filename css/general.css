@@ -49,7 +49,7 @@ header {
 .global-logo {
     background-image: url(../images/aegle-word%20-logo.svg);
     display: block;
-    background-size: 12rem;
+    background-size: 10rem;
     width: 15rem;
     height: 5rem;
     overflow: hidden;
