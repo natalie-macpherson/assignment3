@@ -31,6 +31,12 @@ body {
     padding: 0;
 }
 
+header {
+    height: 10rem;
+    margin: 1.5rem 5%;
+    padding: 1.5rem 5%;
+}
+
 .masthead {
     background-image:url(../images/japanese-paper.jpg);
     background-repeat:no-repeat;
@@ -41,21 +47,46 @@ body {
     margin: 0 0 1rem;
     border-bottom: solid .35rem pink;
 }
-
+.global-logo {
+    background-image: url(../images/aegle-word%20-logo.svg);
+    display: block;
+    background-size: auto;
+    width: 10rem;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 35%;
+    top: 8%;
+    padding: 1rem 5%;
+    margin: 0;
+}
+    
 .logo {
-    height:3rem;
-    width:auto;
+    background-image: url(../images/logo.svg);
+    background-size: auto;
+    display: block;
     float:left;
-    margin: 1.5rem 5%;
+    position: absolute;
+    top: 7%;
 }
 
 .billboard {
     overflow: hidden;
     background-color: black;
-    background-image: url(../images/spring-fashion-girl.jpg); /* you need to replace this images (resure image) */
+    background-image: url(../images/spring-fashion-girl.jpg);
     background-repeat: no-repeat;
     background-size: 25rem;
     background-position: center top;
+}
+
+.name {
+    font-size: 2rem;
+    text-align: center;
+    position: asbolute;
+    padding: 0;
+    margin: 0;
+    font-weight: 00;
+    right: 40%;    
 }
 
 h1 {
@@ -80,25 +111,38 @@ h2 {
 }
 
 .thumbnail {
-    clear: both;
     font-size: 3rem;
-    display: inline;   
+    display: inline;
 }
 
-.sale ul {
+.thumbnail ul {
     margin: 0;
     padding: 0;
     text-align: center; 
 }
 
-.sale li {
+.thumbnail li {
+    margin: 0;
+    padding: 0;
+    display: inline; 
+}
+
+.thumbnail a,
+.thumbnail a:link,
+.thumbnail a:visited {
     background-image: url(../images/square.svg);
     background-repeat: no-repeat;
     background-size: 7rem;
+    display: inline-block;
+    padding: 1rem 5%;
     margin: 0;
-    padding: 0;
-    display: inline;
-    overflow: hidden; 
+    font-size: 3rem;
+    text-decoration: none;
+    color: white;
+}
+
+.thumbnail sup {
+    font-size: .95rem;
 }
 
 p {
@@ -108,26 +152,29 @@ p {
 
 footer {
     margin: 0;
-    padding: 1.5rem 5% 6rem;
+    padding: 1.5rem 2%;
     background-image:url(../images/japanese-paper.jpg);
     background-repeat: no-repeat;
     background-size:25rem;
 }
 
 .follow {
-    clear: both;
+    display: inline;
 }
 
 .follow ul {
     margin: 0;
     padding: 0;
-    text-align: center;
+    text-align: center;   
 }
 
-.nav li {
-    margin: 0;
+.follow li {
+     margin: 0;
     padding: 0;
     display: inline;
 }
 
-    
+.copyright {
+    font-size: .75rem;
+    color: #ff9999;
+}
