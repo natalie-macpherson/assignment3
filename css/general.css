@@ -47,16 +47,16 @@ header {
 }
 
 .global-logo {
-    background-image: url(../images/aegle-word%20-logo.svg);
-    display: block;
+    background-image: url(../images/aegle-logo.svg);
     background-size: 10rem;
-    width: 15rem;
-    height: 5rem;
+    display: block;
+    width:15rem;
+    height: 10rem;
     overflow: hidden;
     background-repeat: no-repeat;
     position: absolute;
     left: 35%;
-    top: 7%;
+    top: -4.4%;
     padding: 1rem 5%;
     margin: 0;
 }
