@@ -33,8 +33,6 @@ body {
 
 header {
     height: 10rem;
-    margin: 1.5rem 5%;
-    padding: 1.5rem 5%;
 }
 
 .masthead {
@@ -47,27 +45,34 @@ header {
     margin: 0 0 1rem;
     border-bottom: solid .35rem pink;
 }
+
 .global-logo {
     background-image: url(../images/aegle-word%20-logo.svg);
     display: block;
-    background-size: auto;
-    width: 10rem;
+    background-size: 12rem;
+    width: 15rem;
+    height: 5rem;
     overflow: hidden;
     background-repeat: no-repeat;
     position: absolute;
     left: 35%;
-    top: 8%;
+    top: 7%;
     padding: 1rem 5%;
     margin: 0;
 }
-    
+
 .logo {
     background-image: url(../images/logo.svg);
-    background-size: auto;
     display: block;
-    float:left;
+    background-size: 5rem;
+    width: 6rem;
+    height: 5rem;
+    overflow: hidden;
+    background-repeat: no-repeat;
     position: absolute;
-    top: 7%;
+    top: 2%;
+    padding: 1rem 5%;;
+    margin: 1rem;
 }
 
 .billboard {
@@ -150,6 +155,15 @@ p {
     margin: 0 0 1.5rem;
 }
 
+a,
+a:link,
+a:visited {
+    color: #ff9999;
+    text-decoration: none;
+    margin: 0;
+    padding: 1rem 5%;
+}
+
 footer {
     margin: 0;
     padding: 1.5rem 2%;
@@ -172,6 +186,16 @@ footer {
      margin: 0;
     padding: 0;
     display: inline;
+}
+
+.follow a,
+.follow a:link,
+.follow a:visited {
+    background-repeat: no-repeat;
+    background-size: 7rem;
+    display: inline-block;
+    padding: 1rem 5%;
+    margin: 0;
 }
 
 .copyright {
