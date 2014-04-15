@@ -29,6 +29,7 @@ img {
 body {
     margin: 0;
     padding: 0;
+   
 }
 
 header {
@@ -80,7 +81,7 @@ header {
     background-color: white;
     background-image: url(../images/spring-fashion-girl.jpg);
     background-repeat: no-repeat;
-    background-size: 25rem;
+    background-size: 27rem;
     background-position: center top;
 }
 
@@ -102,18 +103,39 @@ header {
     text-transform: uppercase;
     background-color: rgba(235, 136, 136, .85);
     color: black;
-    padding: .25rem 0 0;   
+    padding: .25rem 0 0;
+    font-family: "open sans", helvetica, serif;
+    font-weight: bold;
 }
 
 article {
     margin: 0;
     padding: 1.5rem 5%;
+     font-family: "Libre baskerville", georgia, serif;
+    font-weight: regular;
+}
+
+h1 { 
+    text-transform: capitalize;
+    font-family:"open sans", helvetica, serif;
+    overflow: hidden;
+    color:#ff9999;
+    font-size: 2rem;
 }
 
 h2 {
     text-align: center;
     text-transform: uppercase;
     color: #ff9999;
+    font-family:"open sans", helvetica, serif;
+    overflow: hidden;
+    color:#ff9999;
+    font-size: 1.5rem;
+}
+
+figcaption {
+    font-size: .75rem;
+    margin: .5rem 3%;
 }
 
 .thumbnail {
