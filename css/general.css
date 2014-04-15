@@ -220,10 +220,27 @@ p {
     margin: 0 0 1.5rem;
 }
 
-.read {
-    display: block;
-	color: #ff9999;
+.read ul {
+    margin: 0;
+    padding: 0;
+    
 }
+
+.read li {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.read a,
+.read a:link,
+.read a:visited {
+    color: #ff9999; 
+    margin: -2.5rem;
+    padding:.5rem .5rem .5rem 0;
+    text-decoration: none;
+}
+
 
 footer {
     margin: 0;
