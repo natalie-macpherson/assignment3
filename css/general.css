@@ -123,6 +123,21 @@ h2 {
     font-size: 1.5rem;
 }
 
+.product {
+ overflow: hidden;
+}
+
+.product figure {
+    float: left;
+    width: 45%;
+    margin: 0 10% 1.5rem 0;
+    padding: 0;
+}
+
+.product li:nth-child(even) {
+    margin: 0;
+}
+
 figcaption {
     font-size: .75rem;
     margin: .5rem 3%;
@@ -187,6 +202,7 @@ footer {
 
 .follow {
     display: inline;
+    
 }
 
 .follow ul {
@@ -209,6 +225,7 @@ footer {
     display: inline-block;
     padding: 1rem 5%;
     margin: 0;
+    width: 30%;
 }
 
 .copyright {
