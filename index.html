@@ -8,19 +8,23 @@
 </head>
 <body>
     
-    <header class="masthead">
-        <a href="index.html">
-            <div class="global-logo">
-            </div>
-            <div class="logo"></div>
+   <header>
+    
+        <a href="index.html" class="logo">
+            <img src="images/logo.svg">
         </a>
+		
+        <a href="#nav" class="nav-btn" data-state="inactive">Navigate</a> 
+	
+		<nav class="nav-top">	
+            <ul>
+				<li><a href="#">Products</a></li>
+				<li><a href="#">About</a></li>
+			</ul>
+        </nav>
+	
     </header>
-        <a href="products.html"></a>
-        <div class="billboard">
-            <a href="products.html">
-                <h1 class="main-header">Get your Spring On!</h1> 
-            </a>
-        </div>
+    
     <article>
          
         <h2>Sale</h2>
@@ -73,6 +77,8 @@
         </div>
         
     </footer>
+    
+    <script src="js/toggle.js"></script>
     
 </body>
 </html>
