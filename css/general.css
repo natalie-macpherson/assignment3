@@ -52,7 +52,7 @@ header {
 
 .logo {
     display: block;
-    width:11rem;
+    width:12rem;
     margin: 2.5rem 2%;    
 }
 
@@ -63,7 +63,7 @@ header {
     width: 46px;
 	overflow: hidden;
     position: absolute;
-    top: 36px;
+    top: 46px;
     right: 2%;
 	background: transparent url("../images/icon-nav.svg") no-repeat 0 0;
 	text-indent: 100%;	
@@ -106,7 +106,7 @@ header {
     background-image: url(../images/spring-fashion-girl.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position: center top;
+    background-position: center 20%;
     margin:1rem 0;
 }
 
