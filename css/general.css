@@ -107,7 +107,7 @@ header {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center 20%;
-    margin:1rem 0;
+    margin: 1rem 0 0;
 }
 
 .billboard h1 {
@@ -123,7 +123,7 @@ header {
 
 article {
     margin: 0;
-    padding: 0 5% 1.5rem;
+    padding: 1.5rem 5%;
     font-family: "Libre baskerville", georgia, serif;
 }
 
